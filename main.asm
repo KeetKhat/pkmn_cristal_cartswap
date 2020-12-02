@@ -2,7 +2,7 @@ INCLUDE "header/rst.asm"
 INCLUDE "header/interrupts.asm"
 INCLUDE "header/header.asm" ; En-tête de la cartouche
 INCLUDE "system/hram.asm" ; Variables HRAM
-INCLUDE "system/wram.asm" ; Variable WRAM
+INCLUDE "system/wram.asm" ; Variables WRAM
 
 INCLUDE "graphics/fonts.asm" ; Gestion du texte
 
