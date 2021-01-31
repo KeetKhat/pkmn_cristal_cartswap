@@ -9,10 +9,6 @@ INCLUDE "graphics/fonts.asm" ; Gestion du texte
 SECTION "CRISTAL_SWP", ROM0[$150]
 main:
 
- ; On met ça dans la pile pour vérifier la console après avoir nettoyé la RAM :)
-push af
-push bc
-
 ld a, %00000001
 ldh [$FF], a ; Activation de l'interruption V-Blank
 ei ; On active les interruptions
